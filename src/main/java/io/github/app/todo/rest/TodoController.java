@@ -21,7 +21,7 @@ import io.github.app.todo.repository.TodoRepository;
 
 @RestController
 @RequestMapping("/api/todos")
-@CrossOrigin("https://lista-tasks.herokuapp.com/")
+@CrossOrigin("*")
 public class TodoController {
 
 	@Autowired
